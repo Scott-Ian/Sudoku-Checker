@@ -28,9 +28,20 @@ describe ('cell', ()=> {
   });
 
   test('should return all cells within a given row', () => {
-    expect(sampleGrid.returnRow(3).length).toEqual(9);
-    expect(sampleGrid.returnRow(3)[0].row).toEqual(3);
-    expect(sampleGrid.returnRow(3)[0].column).toEqual(1);
-    expect(sampleGrid.returnRow(3)[0].value).toEqual(null);
+    const testRow = sampleGrid.returnRow(3);
+    expect(testRow.length).toEqual(9);
+    for (const cell of testRow) {
+      expect(cell.row).toEqual(3);
+      expect(cell.value).toEqual(null);
+    }
+  });
+
+  test('should return all cells within a given column', () => {
+    const testColumn = sampleGrid.returnColumn(3);
+    expect(testColumn.length).toEqual(9);
+    for (const cell of testColumn) {
+      expect(cell.column).toEqual(3);
+      expect(cell.value).toEqual(null);
+    }
   });
 });

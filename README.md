@@ -60,7 +60,7 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 6. Behavior: Grid object should be able to return all cells in a given column
   * Input: grid.returnColumn(3);
   * Output: column = [_9 cells where cell.column = 3_]
-  * isComplete: _False_
+  * isComplete: _True_
 
 7. Behavior: Grid object should be able to return all cells in a given 3x3 box
   * Input: grid.returnBox(1);

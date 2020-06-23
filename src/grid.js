@@ -19,3 +19,12 @@ Grid.prototype.returnRow = function(rowNumber) {
   return rowArray;
 }
 
+Grid.prototype.returnColumn = function(columnNumber) {
+  let columnArray = [];
+  for (const cell of this.cells) {
+    if (cell.column === columnNumber) {
+      columnArray.push(cell);
+    }
+  }
+  return columnArray;
+}
