@@ -8,3 +8,14 @@ export function Grid() {
     }
   }
 }
+
+Grid.prototype.returnRow = function(rowNumber) {
+  let rowArray = [];
+  for(const cell of this.cells) {
+    if (cell.row === rowNumber) {
+      rowArray.push(cell);
+    }
+  }
+  return rowArray;
+}
+

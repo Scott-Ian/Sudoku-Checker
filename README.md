@@ -55,7 +55,7 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 5. Behavior: Grid object should be able to return all cells in a given row
   * Input: grid.returnRow(3);
   * Output: row = [_9 cells where cell.row = 3_]
-  * isComplete: _False_
+  * isComplete: _True_
 
 6. Behavior: Grid object should be able to return all cells in a given column
   * Input: grid.returnColumn(3);

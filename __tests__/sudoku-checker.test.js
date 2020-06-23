@@ -26,4 +26,11 @@ describe ('cell', ()=> {
     expect(sampleGrid.cells[0].column).toEqual(1);
     expect(sampleGrid.cells[0].value).toEqual(null);
   });
+
+  test('should return all cells within a given row', () => {
+    expect(sampleGrid.returnRow(3).length).toEqual(9);
+    expect(sampleGrid.returnRow(3)[0].row).toEqual(3);
+    expect(sampleGrid.returnRow(3)[0].column).toEqual(1);
+    expect(sampleGrid.returnRow(3)[0].value).toEqual(null);
+  });
 });
