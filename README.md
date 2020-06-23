@@ -33,12 +33,12 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 ## Specifications
 
 1. Behavior: Program should be able to define a cell
-  * Input: None necessary
+  * Input: Cell(x,y,z);
   * Output: Cell object created
   * isComplete: _False_
 
 2. Behavior: Cell should have value, row, and column attributes
-  * Input: none necessary
+  * Input: Cell(3, 1, 1);
   * Output: Cell = {this.value = 3; this.row = 1; this.column = 1;}
   * isComplete: _False_
   
