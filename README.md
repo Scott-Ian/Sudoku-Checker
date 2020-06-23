@@ -70,7 +70,7 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 8. Behavior: Program should be able to assign values to a given row.
   * Input: Grid.assignValuesByRow([1,2,3,4,5,6,7,8,9], 3)
   * Output: Grid.returnRow(3) = [1,2,3,4,5,6,7,8,9];
-  * isComplete: _False_
+  * isComplete: _True_
 
 9. Behavior: Program should be able to check if any returned row, column, or box has duplicate values or not.
   * Input: box = [1,2,3,4,5,6,7,8,9]

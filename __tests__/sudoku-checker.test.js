@@ -55,5 +55,13 @@ describe ('cell', ()=> {
       expect(cell.column).toBeLessThanOrEqual(6);
       expect(cell.value).toEqual(null);
     }
-  })
+  });
+
+  test('should assign values to a given row', () => {
+    const assignRow = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    sampleGrid.assignValuesByRow(assignRow, 3);
+    for (let i = 0; i < 9; i++) {
+      expect(sampleGrid.returnRow(3)[i].value).toEqual(assignRow[i]);
+    }
+  });
 });

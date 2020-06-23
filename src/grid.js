@@ -95,3 +95,10 @@ Grid.prototype.returnBox = function(boxNumber) {
   }
   return boxArray;
 }
+
+Grid.prototype.assignValuesByRow = function (numberArray, rowNumber) {
+  const rowToBeAssigned = this.returnRow(rowNumber);
+  for(let i = 0; i < 9; i++) {
+    rowToBeAssigned[i].value = numberArray[i];
+  }
+}
