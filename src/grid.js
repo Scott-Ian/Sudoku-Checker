@@ -119,3 +119,15 @@ Grid.prototype.isLegal = function(cellsArray) {
   }
   return true;
 }
+
+Grid.prototype.isSolved = function() {
+  for (let i = 1; i <= 9; i++) {
+    const valueArrayRow = this.returnRow(i);
+    const valueArrayColumn = this.returnColumn(i);
+    const valueArrayBox = this.returnBox(i);
+    if (!(this.isLegal(valueArrayRow) && this.isLegal(valueArrayColumn) && this.isLegal(valueArrayBox))) {
+      return false;
+    }
+  }
+  return true;
+}

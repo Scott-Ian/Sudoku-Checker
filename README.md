@@ -77,10 +77,15 @@ _{Tell me about the languages and tools you used to create this app. Assume that
   * Output: [1,2,3,4,5,6,7,8,9];
   * isComplete: _True_
 
-10. Behavior: Program should be able to check if any returned row, column, or box has duplicate values or not.
+10. Behavior: Program should be able to check if any returned row, column, or box has values 1-9.
   * Input: box = [1,2,3,4,5,6,7,8,9]
-  * Output: "no duplicates"
+  * Output: true
   * isComplete: _True_
+
+11. Behavior: Program should be able to check if a completed sudoku puzzle is legal.
+ * Input: *sample completed sudoku*
+ * Output: This is a completed and legal sudoku!
+ * isComplete: _False_
 
 ### License
 
