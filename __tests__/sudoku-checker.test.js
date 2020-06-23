@@ -44,4 +44,16 @@ describe ('cell', ()=> {
       expect(cell.value).toEqual(null);
     }
   });
+
+  test('should return all cells with a given box', () => {
+    const testBox = sampleGrid.returnBox(5);
+    expect(testBox.length).toEqual(9);
+    for (const cell of testBox) {
+      expect(cell.row).toBeGreaterThanOrEqual(4);
+      expect(cell.row).toBeLessThanOrEqual(6);
+      expect(cell.column).toBeGreaterThanOrEqual(4);
+      expect(cell.column).toBeLessThanOrEqual(6);
+      expect(cell.value).toEqual(null);
+    }
+  })
 });

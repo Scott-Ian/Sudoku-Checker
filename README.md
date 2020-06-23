@@ -65,7 +65,7 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 7. Behavior: Grid object should be able to return all cells in a given 3x3 box
   * Input: grid.returnBox(1);
   * Output: box = [_9 cells where 1 <= cell.row <= 3 and 1 <= cell.column <= 3]
-  * isComplete: _False_
+  * isComplete: _True_
 
 8. Behavior: Program should be able to check if any returned row, column, or box has duplicate values or not.
   * Input: box = [1,2,3,4,5,6,7,8,9]

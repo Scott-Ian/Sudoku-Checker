@@ -28,3 +28,70 @@ Grid.prototype.returnColumn = function(columnNumber) {
   }
   return columnArray;
 }
+
+Grid.prototype.returnBox = function(boxNumber) {
+  let boxArray = [];
+  let minRow, maxRow, minColumn, maxColumn;
+  switch (boxNumber) {
+    case (1):
+      minRow = 1;
+      maxRow = 3;
+      minColumn = 1;
+      maxColumn = 3;
+      break;
+    case (2):
+      minRow = 1;
+      maxRow = 3;
+      minColumn = 4;
+      maxColumn = 6;
+      break;
+    case (3):
+      minRow = 1;
+      maxRow = 3;
+      minColumn = 7;
+      maxColumn = 9;
+      break;
+    case (4):
+      minRow = 4;
+      maxRow = 6;
+      minColumn = 1;
+      maxColumn = 3;
+      break;
+    case (5):
+      minRow = 4;
+      maxRow = 6;
+      minColumn = 4;
+      maxColumn = 6;
+      break;
+    case (6):
+      minRow = 4;
+      maxRow = 6;
+      minColumn = 7;
+      maxColumn = 9;
+    break;
+    case (7):
+      minRow = 7;
+      maxRow = 9;
+      minColumn = 1;
+      maxColumn = 3;
+      break;
+    case (8):
+      minRow = 7;
+      maxRow = 9;
+      minColumn = 4;
+      maxColumn = 6;
+      break;
+    case (9):
+      minRow = 7;
+      maxRow = 9;
+      minColumn = 7;
+      maxColumn = 9;
+      break;
+  }
+  for (const cell of this.cells) {
+    if (cell.column >= minColumn && cell.column <= maxColumn && cell.row <= maxRow && cell.row >= minRow) {
+      boxArray.push(cell);
+    }
+  }
+  return boxArray;
+}
