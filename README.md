@@ -35,17 +35,17 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 1. Behavior: Program should be able to define a cell
   * Input: Cell(x,y,z);
   * Output: Cell object created
-  * isComplete: _False_
+  * isComplete: _True_
 
 2. Behavior: Cell should have value, row, and column attributes
   * Input: Cell(3, 1, 1);
   * Output: Cell = {this.value = 3; this.row = 1; this.column = 1;}
-  * isComplete: _False_
+  * isComplete: _True_
   
 3. Behavior: Program should define a grid
   * Input: none necessary
   * Output: Grid object created
-  * isComplete: _False_
+  * isComplete: _True_
 
 4. Behavior: Grid should contain 81 cells, each with a unique column and row combination
 * Input: none necessary
