@@ -102,3 +102,10 @@ Grid.prototype.assignValuesByRow = function (numberArray, rowNumber) {
     rowToBeAssigned[i].value = numberArray[i];
   }
 }
+
+Grid.prototype.retrieveValues = function(cellsArray) {
+  const valueArray = cellsArray.map(function(cell) {
+    return cell.value;
+  });
+  return valueArray;
+}

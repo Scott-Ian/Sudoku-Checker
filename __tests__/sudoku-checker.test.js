@@ -64,4 +64,13 @@ describe ('cell', ()=> {
       expect(sampleGrid.returnRow(3)[i].value).toEqual(assignRow[i]);
     }
   });
+
+  test('should check whether a given array of cells can have its values retrieved', () => {
+    const testVals = [3, 4, 7, 9, 1, 2, 5, 6, 8];
+    sampleGrid.assignValuesByRow(testVals, 3);
+    const valueArray = sampleGrid.retrieveValues(sampleGrid.returnRow(3));
+    for (let i = 0; i < 9; i++) {
+      expect(valueArray[i]).toEqual(testVals[i]);
+    }
+  })
 });

@@ -72,7 +72,12 @@ _{Tell me about the languages and tools you used to create this app. Assume that
   * Output: Grid.returnRow(3) = [1,2,3,4,5,6,7,8,9];
   * isComplete: _True_
 
-9. Behavior: Program should be able to check if any returned row, column, or box has duplicate values or not.
+9. Behavior: Program should be able to retrive values from the cells array.
+  * Input: Grid.retriveValues(Grid.returnRow(3));
+  * Output: [1,2,3,4,5,6,7,8,9];
+  * isComplete: _True_
+
+10. Behavior: Program should be able to check if any returned row, column, or box has duplicate values or not.
   * Input: box = [1,2,3,4,5,6,7,8,9]
   * Output: "no duplicates"
   * isComplete: _False_
