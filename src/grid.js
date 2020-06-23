@@ -109,3 +109,13 @@ Grid.prototype.retrieveValues = function(cellsArray) {
   });
   return valueArray;
 }
+
+Grid.prototype.isLegal = function(cellsArray) {
+  const cellArrayValue = this.retrieveValues(cellsArray);
+  for (let i = 1; i < 10; i++) {
+    if (!cellArrayValue.includes(i)) {
+      return false;
+    }
+  }
+  return true;
+}

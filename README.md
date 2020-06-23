@@ -80,7 +80,7 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 10. Behavior: Program should be able to check if any returned row, column, or box has duplicate values or not.
   * Input: box = [1,2,3,4,5,6,7,8,9]
   * Output: "no duplicates"
-  * isComplete: _False_
+  * isComplete: _True_
 
 ### License
 

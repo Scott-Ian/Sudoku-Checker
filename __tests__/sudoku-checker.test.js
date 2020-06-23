@@ -73,4 +73,18 @@ describe ('cell', ()=> {
       expect(valueArray[i]).toEqual(testVals[i]);
     }
   })
+
+  test('should check whether a given row, column or box contains the numbers one through 9, with no duplicates', () => {
+    const testVals = [3, 4, 7, 9, 1, 2, 5, 6, 8];
+    sampleGrid.assignValuesByRow(testVals, 3);
+    const row3 = sampleGrid.returnRow(3);
+    expect(sampleGrid.isLegal(row3)).toBe(true);
+  });
+
+  test('should return false if a duplicate does exist', () => {
+    const testVals = [3,4,6,9,1,2,2,7,8];
+    sampleGrid.assignValuesByRow(testVals, 3);
+    const row3 = sampleGrid.returnRow(3);
+    expect(sampleGrid.isLegal(row3)).toBe(false);
+  });
 });
