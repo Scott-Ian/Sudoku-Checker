@@ -50,7 +50,7 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 4. Behavior: Grid should contain 81 cells, each with a unique column and row combination
 * Input: none necessary
 * Output: Grid = {cells = [_81 cells_]}
-* isComplete: _False_
+* isComplete: _True_
 
 5. Behavior: Grid object should be able to return all cells in a given row
   * Input: grid.returnRow(3);
