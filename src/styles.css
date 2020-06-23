@@ -5,3 +5,17 @@
 #solved, #notSolved {
   display: none;
 }
+
+.threeRows {
+  border: .5px solid black;
+}
+
+.cb {
+  border-right: 2px solid;
+  padding-right: 5px;
+}
+
+.rb {
+  border-bottom: 2px solid;
+  padding-bottom: 20px;
+}

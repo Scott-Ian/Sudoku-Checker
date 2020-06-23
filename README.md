@@ -1,34 +1,34 @@
-# _{Application Name}_
+# _Sudoku Checker_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _An app to check for sudoku legality, 06.23.20_
 
-#### By _**{List of contributors}**_
+#### By _**Ian Scott and Micheal Hansen**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This app will check the legality of a Sudoku; just type in the relevant numbers into the boxes, then click 'Check Sudoku'_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+_To setup this project, you'll need a browser (we used Chrome), a package manager (we used node.js), and git. To alter the text, you'll need a word processor (we used Visual Studio Code)_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Download the repo from `https://github.com/Scott-Ian/Sudoku-Checker` or clone with `git clone https://github.com/Scott-Ian/Sudoku-Checker`_
+* _Navigate into the Sudoku-Checker directory_
+* _Install the necessary packages `npm install`_
+* _Build the project with `npm run build`, then open dist/index.html in your browser of choice_
+* _Alternately, open a live development server in your browser with `npm run start`_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_None currently known_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Send a message on Github._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Created in visual studio code. Utilizes node.js and webpack to bundle the javascript and css_
 
 ## Specifications
 
@@ -89,10 +89,6 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+_This software is available under the MIT License_
 
-https://choosealicense.com/
-https://en.wikipedia.org/wiki/MIT_License
-https://en.wikipedia.org/wiki/GNU_General_Public_License
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_{Ian Scott and Micheal Hansen}_**
