@@ -6,6 +6,119 @@
   <title>Sudoku-Checker</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="page-header">
+      <h1>Sudoku Solver!</h1>
+    </div>
+
+    <form>
+      <div class="row">
+        <div class="col-md-1"><input type="number" id="row1column1"></div>
+        <div class="col-md-1"><input type="number" id="row1column2"></div>
+        <div class="col-md-1"><input type="number" id="row1column3"></div>
+        <div class="col-md-1"><input type="number" id="row1column4"></div>
+        <div class="col-md-1"><input type="number" id="row1column5"></div>
+        <div class="col-md-1"><input type="number" id="row1column6"></div>
+        <div class="col-md-1"><input type="number" id="row1column7"></div>
+        <div class="col-md-1"><input type="number" id="row1column8"></div>
+        <div class="col-md-1"><input type="number" id="row1column9"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"><input type="number" id="row2column1"></div>
+        <div class="col-md-1"><input type="number" id="row2column2"></div>
+        <div class="col-md-1"><input type="number" id="row2column3"></div>
+        <div class="col-md-1"><input type="number" id="row2column4"></div>
+        <div class="col-md-1"><input type="number" id="row2column5"></div>
+        <div class="col-md-1"><input type="number" id="row2column6"></div>
+        <div class="col-md-1"><input type="number" id="row2column7"></div>
+        <div class="col-md-1"><input type="number" id="row2column8"></div>
+        <div class="col-md-1"><input type="number" id="row2column9"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"><input type="number" id="row3column1"></div>
+        <div class="col-md-1"><input type="number" id="row3column2"></div>
+        <div class="col-md-1"><input type="number" id="row3column3"></div>
+        <div class="col-md-1"><input type="number" id="row3column4"></div>
+        <div class="col-md-1"><input type="number" id="row3column5"></div>
+        <div class="col-md-1"><input type="number" id="row3column6"></div>
+        <div class="col-md-1"><input type="number" id="row3column7"></div>
+        <div class="col-md-1"><input type="number" id="row3column8"></div>
+        <div class="col-md-1"><input type="number" id="row3column9"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"><input type="number" id="row4column1"></div>
+        <div class="col-md-1"><input type="number" id="row4column2"></div>
+        <div class="col-md-1"><input type="number" id="row4column3"></div>
+        <div class="col-md-1"><input type="number" id="row4column4"></div>
+        <div class="col-md-1"><input type="number" id="row4column5"></div>
+        <div class="col-md-1"><input type="number" id="row4column6"></div>
+        <div class="col-md-1"><input type="number" id="row4column7"></div>
+        <div class="col-md-1"><input type="number" id="row4column8"></div>
+        <div class="col-md-1"><input type="number" id="row4column9"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"><input type="number" id="row5column1"></div>
+        <div class="col-md-1"><input type="number" id="row5column2"></div>
+        <div class="col-md-1"><input type="number" id="row5column3"></div>
+        <div class="col-md-1"><input type="number" id="row5column4"></div>
+        <div class="col-md-1"><input type="number" id="row5column5"></div>
+        <div class="col-md-1"><input type="number" id="row5column6"></div>
+        <div class="col-md-1"><input type="number" id="row5column7"></div>
+        <div class="col-md-1"><input type="number" id="row5column8"></div>
+        <div class="col-md-1"><input type="number" id="row5column9"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"><input type="number" id="row6column1"></div>
+        <div class="col-md-1"><input type="number" id="row6column2"></div>
+        <div class="col-md-1"><input type="number" id="row6column3"></div>
+        <div class="col-md-1"><input type="number" id="row6column4"></div>
+        <div class="col-md-1"><input type="number" id="row6column5"></div>
+        <div class="col-md-1"><input type="number" id="row6column6"></div>
+        <div class="col-md-1"><input type="number" id="row6column7"></div>
+        <div class="col-md-1"><input type="number" id="row6column8"></div>
+        <div class="col-md-1"><input type="number" id="row6column9"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"><input type="number" id="row7column1"></div>
+        <div class="col-md-1"><input type="number" id="row7column2"></div>
+        <div class="col-md-1"><input type="number" id="row7column3"></div>
+        <div class="col-md-1"><input type="number" id="row7column4"></div>
+        <div class="col-md-1"><input type="number" id="row7column5"></div>
+        <div class="col-md-1"><input type="number" id="row7column6"></div>
+        <div class="col-md-1"><input type="number" id="row7column7"></div>
+        <div class="col-md-1"><input type="number" id="row7column8"></div>
+        <div class="col-md-1"><input type="number" id="row7column9"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"><input type="number" id="row8column1"></div>
+        <div class="col-md-1"><input type="number" id="row8column2"></div>
+        <div class="col-md-1"><input type="number" id="row8column3"></div>
+        <div class="col-md-1"><input type="number" id="row8column4"></div>
+        <div class="col-md-1"><input type="number" id="row8column5"></div>
+        <div class="col-md-1"><input type="number" id="row8column6"></div>
+        <div class="col-md-1"><input type="number" id="row8column7"></div>
+        <div class="col-md-1"><input type="number" id="row8column8"></div>
+        <div class="col-md-1"><input type="number" id="row8column9"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"><input type="number" id="row9column1"></div>
+        <div class="col-md-1"><input type="number" id="row9column2"></div>
+        <div class="col-md-1"><input type="number" id="row9column3"></div>
+        <div class="col-md-1"><input type="number" id="row9column4"></div>
+        <div class="col-md-1"><input type="number" id="row9column5"></div>
+        <div class="col-md-1"><input type="number" id="row9column6"></div>
+        <div class="col-md-1"><input type="number" id="row9column7"></div>
+        <div class="col-md-1"><input type="number" id="row9column8"></div>
+        <div class="col-md-1"><input type="number" id="row9column9"></div>
+      </div>
+      <button class="btn btn-success" id="checkSudoku">Check Sudoku</button>
+    </form>
+    <div id="solved">
+      <h3>This Sudoku is Solved!</h3>
+    </div>
+    <div id="notSolved">
+      <h3>This Sudoku is not Solved!</h3>
+    </div>
+  </div>
 </body>
 </html>

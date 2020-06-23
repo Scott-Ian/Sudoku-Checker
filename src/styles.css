@@ -1,0 +1,7 @@
+.page-header {
+  text-align: center;
+}
+
+#solved, #notSolved {
+  display: none;
+}
